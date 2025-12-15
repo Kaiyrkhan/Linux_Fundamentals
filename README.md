@@ -1,4 +1,4 @@
-# Linux Essentials
+# Linux Fundamentals
 
 ### Course Contents
 1. Lab Environment  
