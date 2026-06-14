@@ -20,7 +20,7 @@ Description:    Debian GNU/Linux
 Release:        13
 Codename:       trixie
 
-$ cat /etc/debian_version
+student@debian:~$ cat /etc/debian_version
 13.5
 
 student@debian:~$ uname -rs
