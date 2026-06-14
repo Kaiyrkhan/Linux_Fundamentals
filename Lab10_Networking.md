@@ -11,6 +11,8 @@
 
 ## Debian 13.x
 
+#### System Information
+
 ```shell
 student@debian:~$ lsb_release -a
 Distributor ID: Debian
@@ -70,6 +72,8 @@ $ cat /etc/resolv.conf
 ```
 
 ## Ubuntu 24.04.4 LTS
+
+#### System Information
 
 ```shell
 student@ubuntu:~$ lsb_release -a
