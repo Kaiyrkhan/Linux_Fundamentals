@@ -82,6 +82,8 @@ CTRL+L
 
 ```shell
 student@ubuntu:~$ sudo netplan apply
+немесе
+student@ubuntu:~$ sudo netplan try
 ```
 
 ```shell
