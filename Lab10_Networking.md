@@ -21,7 +21,7 @@ student@debian:~$ cat /etc/debian_version
 13.5
 
 student@debian:~$ uname -rs
-Linux 6.12.73+deb13-amd64
+Linux 6.12.73+deb13-amd64 x86_64 GNU/Linux
 ```
 
 ##### Configure Device Hostname
