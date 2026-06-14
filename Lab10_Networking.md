@@ -6,12 +6,9 @@
   4) openEuler 24.03 LTS SP3
   5) Oracle 7.9
 
-### Network Topology
-![Topology](./images/image.png)
+## 1) Debian 13.x
 
-## Debian 13.x
-
-#### System Information
+##### System Information
 
 ```shell
 student@debian:~$ lsb_release -a
@@ -27,7 +24,7 @@ student@debian:~$ uname -rs
 Linux
 ```
 
-#### Configure Device Hostname
+##### Configure Device Hostname
 
 ```shell
 $ sudo hostnamectl set-hostname node1
@@ -41,7 +38,7 @@ CTRL+L
 $ bash
 ```
 
-#### Configure Network interface
+##### Configure Network interface
 
 ```shell
 $ ip address
@@ -71,9 +68,9 @@ $ ip route
 $ cat /etc/resolv.conf
 ```
 
-## Ubuntu 24.04.4 LTS
+## 2) Ubuntu 24.04.4 LTS
 
-#### System Information
+##### System Information
 
 ```shell
 student@ubuntu:~$ lsb_release -a
@@ -84,7 +81,7 @@ student@ubuntu:~$ uname -rs
 Linux 6.8.0-101-generic x86_64 GNU/Linux
 ```
 
-#### Configure Device Hostname
+##### Configure Device Hostname
 
 ```shell
 $ sudo hostnamectl set-hostname node2
@@ -98,7 +95,7 @@ CTRL+L
 $ bash
 ```
 
-#### Configure Network interface
+##### Configure Network interface
 
 ```shell
 $ ip address
