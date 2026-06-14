@@ -74,6 +74,7 @@ $ cat /etc/resolv.conf
 ```shell
 student@ubuntu:~$ lsb_release -a
 Ubuntu 24.04.4 LTS
+Codename: noble
 
 student@ubuntu:~$ uname -rs
 Linux 6.8.0-101-generic x86_64 GNU/Linux
