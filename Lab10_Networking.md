@@ -9,6 +9,66 @@
 ### Network Topology
 ![Topology](./images/image.png)
 
+## Debian 13.x
+
+```shell
+student@debian:~$ lsb_release -a
+Distributor ID: Debian
+Description:    Debian GNU/Linux
+Release:        13
+Codename:       trixie
+
+$ cat /etc/debian_version
+13.5
+
+student@debian:~$ uname -rs
+Linux
+```
+
+#### Configure Device Hostname
+
+```shell
+$ sudo hostnamectl set-hostname node1
+
+$ sudo nano /etc/hosts
+127.0.1.1  node1
+
+CTRL+O, ENTER, CTRL+X
+CTRL+L
+
+$ bash
+```
+
+#### Configure Network interface
+
+```shell
+$ ip address
+```
+
+```shell
+$ sudo nano /etc/network/interfaces
+  # allow-hotplug ens3
+  auto ens3
+  iface ens3 inet static
+    address 10.10.10.101
+    netmask 255.255.255.0
+    gateway 10.10.10.1
+    dns-nameservers 8.8.8.8
+
+CTRL+O, ENTER, CTRL+X
+CTRL+L
+```
+
+```shell
+$ sudo systemctl restart networking
+```
+
+```shell
+$ ip address
+$ ip route
+$ cat /etc/resolv.conf
+```
+
 ## Ubuntu 24.04.4 LTS
 
 ```shell
@@ -36,7 +96,7 @@ $ bash
 #### Configure Network interface
 
 ```shell
-student@ubuntu:~$ ip address
+$ ip address
 ```
 
 ```shell
@@ -81,15 +141,17 @@ CTRL+L
 > **ЕСКЕРТУ:** *YAML файлында бос орындар (indentation) өте маңызды. Әр қатарда 2 бос орын қолдануды ұмытпаңыз! (Tab пернесін қолданбаған дұрыс)*  
 
 ```shell
-student@ubuntu:~$ sudo netplan apply
+$ sudo netplan apply
 немесе
-student@ubuntu:~$ sudo netplan try
+$ sudo netplan try
 ```
 
 ```shell
-student@ubuntu:~$ ip address
+$ ip address
+$ ip route
+$ resolvectl status
 ```
 
 ```shell
-student@ubuntu:~$ networkctl status
+$ networkctl status
 ```
