@@ -88,7 +88,7 @@ Banner /etc/issue.net
 student@ubuntu:~$ sudo systemctl restart ssh
 ```
 
-**6-қадам: Poweroff**
+**6-қадам: Power Off**
 ```shell
 student@ubuntu:~$ poweroff
 ```
