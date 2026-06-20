@@ -34,3 +34,12 @@ student@ubuntu:~$ ip address
 
 Verify SSH Connectivity
 
+```shell
+student@ubuntu:~$ reboot
+student@ubuntu:~$ poweroff
+```
+
+Take Snapshot -> initial image  
+
+```shell
+```
