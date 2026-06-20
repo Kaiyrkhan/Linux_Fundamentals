@@ -63,12 +63,6 @@ CTRL+L
 `\l` - TTY name  
 `\r` - Kernel release  
 
-```shell
-student@ubuntu:~$ sudo systemctl restart getty@tty1
-немесе
-student@ubuntu:~$ reboot
-```
-
 **Configure Remote Login Banner**
 
 ```shell
