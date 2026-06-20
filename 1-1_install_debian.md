@@ -68,4 +68,5 @@ student@debian:~$ sudo poweroff
 ```
 
 **7-қадам: Take Snapshot**  
+  
 Snapshot Manager -> Take Snapshot -> initial image  
