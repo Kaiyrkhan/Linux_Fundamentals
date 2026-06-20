@@ -40,7 +40,10 @@ student@debian:~$ sudo systemctl status sshd
 student@debian:~$ ip address
 ```
 
-**5-қадам: Configure Console Login Banner**
+**5-қадам: Banner Messages**
+
+**Configure Console Login Banner**
+
 ```shell
 student@debian:~$ sudo nano /etc/issue
 \S \l
@@ -65,6 +68,7 @@ student@debian:~$ sudo reboot
 ```
 
 **Configure Remote Login Banner**
+
 ```shell
 student@debian:~$ sudo nano /etc/issue.net
 
