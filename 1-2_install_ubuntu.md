@@ -53,6 +53,8 @@ Kernel \r
 Username: student
 Password: 123
 ************************
+ENTER
+ENTER
 
 CTRL+O, ENTER, CTRL+X
 CTRL+L
