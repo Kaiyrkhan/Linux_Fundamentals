@@ -54,7 +54,8 @@ Kernel \r
 Username: student
 Password: 123
 ************************************
+
+CTRL+O, ENTER, CTRL+X
+CTRL+L
 ```
 
-```shell
-```
