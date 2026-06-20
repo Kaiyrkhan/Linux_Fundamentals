@@ -7,14 +7,15 @@ Table - Minimum System Requirements
 | Memory    | 2 GB RAM            |
 | Storage   | 25 GB               |
 
-**1-қадам**
-```shell
-student@ubuntu:~$ groups student
-```
+**1-қадам: Set the Root Password**
 
 ```shell
 student@ubuntu:~$ sudo passwd root
 New password: P@s$w0rd
+```
+
+```shell
+student@ubuntu:~$ groups student
 ```
 
 **2-қадам: Update and Upgrade**
