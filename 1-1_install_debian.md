@@ -26,10 +26,6 @@ student@debian:~$ sudo apt update
 student@debian:~$ sudo apt upgrade -y
 ```
 
-```shell
-student@debian:~$ sudo reboot
-```
-
 **3-қадам**
 ```shell
 student@debian:~$ uname -sr
@@ -58,9 +54,13 @@ Password: 123
 CTRL+O, ENTER, CTRL+X
 CTRL+L
 ```
-`\S` - OS name
-`\l` - TTY name
-`\r` - Kernel release
+`\S` - OS name  
+`\l` - TTY name  
+`\r` - Kernel release  
+
+```shell
+student@debian:~$ sudo reboot
+```
 
 **6-қадам**
 ```shell
