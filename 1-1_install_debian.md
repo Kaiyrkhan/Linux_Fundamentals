@@ -107,7 +107,7 @@ Snapshot Manager -> Take Snapshot -> initial image
 
 **8-қадам: Description**  
 
-VMware® Workstation -> Description  
+VMware Workstation -> Description  
 
 Username: student  
 Password: 123  
