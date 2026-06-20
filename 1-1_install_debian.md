@@ -26,6 +26,10 @@ student@debian:~$ sudo apt update
 student@debian:~$ sudo apt upgrade -y
 ```
 
+```shell
+student@debian:~$ sudo reboot
+```
+
 **3-қадам: System Information**
 ```shell
 student@debian:~$ uname -sr
@@ -62,12 +66,6 @@ CTRL+L
 `\S` - OS name  
 `\l` - TTY name  
 `\r` - Kernel release  
-
-```shell
-student@debian:~$ sudo systemctl restart getty@tty1
-немесе
-student@debian:~$ sudo reboot
-```
 
 **Configure Remote Login Banner**
 
