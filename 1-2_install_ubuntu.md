@@ -96,3 +96,12 @@ student@ubuntu:~$ poweroff
   
 Snapshot Manager -> Take Snapshot -> initial image  
 
+**8-қадам: Description**  
+
+VMware Workstation -> Description  
+
+Username: student  
+Password: 123  
+
+Username: root  
+Password: P@s$w0rd  
