@@ -64,7 +64,7 @@ CTRL+L
 ```shell
 student@ubuntu:~$ sudo systemctl restart getty@tty1
 немесе
-student@ubuntu:~$ sudo reboot
+student@ubuntu:~$ reboot
 ```
 
 **Configure Remote Login Banner**
