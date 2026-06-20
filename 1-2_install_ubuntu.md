@@ -73,6 +73,8 @@ student@ubuntu:~$ sudo nano /etc/issue.net
 Authorized access only!
 Unauthorized access is prohibited.
 ************************************
+ENTER
+ENTER
 
 CTRL+O, ENTER, CTRL+X
 CTRL+L
