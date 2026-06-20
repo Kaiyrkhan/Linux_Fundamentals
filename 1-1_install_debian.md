@@ -53,6 +53,8 @@ Kernel \r
 Username: student
 Password: 123
 ************************************
+ENTER
+ENTER
 
 CTRL+O, ENTER, CTRL+X
 CTRL+L
@@ -76,7 +78,8 @@ student@debian:~$ sudo nano /etc/issue.net
 Authorized access only!
 Unauthorized access is prohibited.
 ************************************
-
+ENTER
+ENTER
 
 CTRL+O, ENTER, CTRL+X
 CTRL+L
