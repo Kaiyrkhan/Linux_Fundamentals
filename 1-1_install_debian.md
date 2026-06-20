@@ -7,6 +7,7 @@ Table - Minimum System Requirements
 | Memory    | 2 GB RAM            |
 | Storage   | 25 GB               |
 
+**1-қадам**
 ```shell
 root@debian:~# groups student
 root@debian:~# usermod -aG sudo student
@@ -19,32 +20,31 @@ root@debian:~# apt install sudo
 root@debian:~# reboot
 ```
 
+**2-қадам**
 ```shell
 student@debian:~$ sudo apt update
 student@debian:~$ sudo apt upgrade -y
 ```
 
 ```shell
+student@debian:~$ sudo reboot
+```
+
+**3-қадам**
+```shell
 student@debian:~$ uname -sr
 student@debian:~$ lsb_release -a
 student@debian:~$ cat /etc/debian_version
 ```
 
+**4-қадам: Verify SSH Connectivity**
 ```shell
-student@debian:~$ ip address
-
 student@debian:~$ sudo systemctl status sshd
+
+student@debian:~$ ip address
 ```
 
-Verify SSH Connectivity
-
-```shell
-student@debian:~$ sudo reboot
-student@debian:~$ sudo poweroff
-```
-
-Snapshot Manager -> Take Snapshot -> initial image  
-
+**5-қадам**
 ```shell
 student@debian:~$ sudo nano /etc/issue
 \S \l
@@ -59,3 +59,10 @@ CTRL+O, ENTER, CTRL+X
 CTRL+L
 ```
 
+**6-қадам**
+```shell
+student@debian:~$ sudo poweroff
+```
+
+**7-қадам: Take Snapshot**
+Snapshot Manager -> Take Snapshot -> initial image  
