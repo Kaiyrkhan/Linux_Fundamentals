@@ -26,10 +26,6 @@ student@debian:~$ sudo apt update
 student@debian:~$ sudo apt upgrade -y
 ```
 
-```shell
-student@debian:~$ sudo reboot
-```
-
 **3-қадам: System Information**
 ```shell
 student@debian:~$ uname -sr
@@ -101,11 +97,7 @@ student@debian:~$ sudo nano /etc/motd
 student@debian:~$ sudo poweroff
 ```
 
-**7-қадам: Take Snapshot**  
-  
-Snapshot Manager -> Take Snapshot -> initial image  
-
-**8-қадам: Description**  
+**7-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -114,3 +106,7 @@ Password: 123
 
 Username: root  
 Password: P@s$w0rd  
+
+**8-қадам: Take Snapshot**  
+  
+Snapshot Manager -> Take Snapshot -> initial image  
