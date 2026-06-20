@@ -20,13 +20,13 @@ root@debian:~# apt install sudo
 root@debian:~# reboot
 ```
 
-**2-қадам**
+**2-қадам: Update and Upgrade**
 ```shell
 student@debian:~$ sudo apt update
 student@debian:~$ sudo apt upgrade -y
 ```
 
-**3-қадам**
+**3-қадам: System Information**
 ```shell
 student@debian:~$ uname -sr
 student@debian:~$ lsb_release -a
