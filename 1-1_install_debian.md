@@ -94,7 +94,7 @@ student@debian:~$ sudo systemctl restart ssh
 student@debian:~$ sudo nano /etc/motd
 ```
 
-**6-қадам**
+**6-қадам: Power Off**
 ```shell
 student@debian:~$ sudo poweroff
 ```
