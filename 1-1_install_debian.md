@@ -43,7 +43,7 @@ student@debian:~$ sudo reboot
 student@debian:~$ sudo poweroff
 ```
 
-Take Snapshot -> initial image  
+Snapshot Manager ➜ Take Snapshot -> initial image  
 
 ```shell
 student@debian:~$ sudo nano /etc/issue
