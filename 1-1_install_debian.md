@@ -46,6 +46,14 @@ student@debian:~$ sudo poweroff
 Take Snapshot -> initial image  
 
 ```shell
+student@debian:~$ sudo nano /etc/issue
+\S \l
+Kernel \r
+
+************************************
+Username: student
+Password: 123
+************************************
 ```
 
 ```shell
