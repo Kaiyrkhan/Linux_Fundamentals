@@ -105,7 +105,7 @@ student@debian:~$ sudo poweroff
   
 Snapshot Manager -> Take Snapshot -> initial image  
 
-**Description**  
+**8-қадам: Description**  
 
 VMware® Workstation -> Description  
 
