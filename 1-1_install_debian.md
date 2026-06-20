@@ -34,8 +34,9 @@ student@debian:~$ cat /etc/debian_version
 student@debian:~$ ip address
 
 student@debian:~$ sudo systemctl status sshd
-PuTTY -> SSH
 ```
+
+Verify SSH Connectivity
 
 ```shell
 student@debian:~$ sudo reboot
