@@ -59,7 +59,35 @@ CTRL+L
 `\r` - Kernel release  
 
 ```shell
+student@debian:~$ sudo systemctl restart getty@tty1
+немесе
 student@debian:~$ sudo reboot
+```
+
+**Configure Remote Login Banner**
+```shell
+student@debian:~$ sudo nano /etc/issue.net
+
+************************************
+Authorized access only!
+Unauthorized access is prohibited.
+************************************
+
+CTRL+O, ENTER, CTRL+X
+CTRL+L
+```
+
+```shell
+student@debian:~$ sudo nano /etc/ssh/sshd_config
+Banner /etc/issue.net
+
+student@debian:~$ sudo systemctl restart ssh
+```
+
+**MOTD (Message of the Day)**
+
+```shell
+student@debian:~$ sudo nano /etc/motd
 ```
 
 **6-қадам**
