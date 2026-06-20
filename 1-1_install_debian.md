@@ -7,7 +7,7 @@ Table - Minimum System Requirements
 | Memory    | 2 GB RAM            |
 | Storage   | 25 GB               |
 
-**1-қадам**
+**1-қадам: Add a User to the Sudo Group**
 ```shell
 root@debian:~# groups student
 root@debian:~# usermod -aG sudo student
