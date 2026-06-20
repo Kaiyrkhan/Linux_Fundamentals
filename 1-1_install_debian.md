@@ -44,7 +44,7 @@ student@debian:~$ sudo systemctl status sshd
 student@debian:~$ ip address
 ```
 
-**5-қадам**
+**5-қадам: Configure Console Login Banner**
 ```shell
 student@debian:~$ sudo nano /etc/issue
 \S \l
@@ -58,6 +58,9 @@ Password: 123
 CTRL+O, ENTER, CTRL+X
 CTRL+L
 ```
+`\S` - OS name
+`\l` - TTY name
+`\r` - Kernel release
 
 **6-қадам**
 ```shell
