@@ -26,10 +26,6 @@ student@ubuntu:~$ sudo apt update
 student@ubuntu:~$ sudo apt upgrade -y
 ```
 
-```shell
-student@ubuntu:~$ reboot
-```
-
 **3-қадам: System Information**
 ```shell
 student@ubuntu:~$ uname -sr
@@ -92,11 +88,7 @@ student@ubuntu:~$ sudo systemctl restart ssh
 student@ubuntu:~$ poweroff
 ```
 
-**7-қадам: Take Snapshot**  
-  
-Snapshot Manager -> Take Snapshot -> initial image  
-
-**8-қадам: Description**  
+**7-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -105,3 +97,7 @@ Password: 123
 
 Username: root  
 Password: P@s$w0rd  
+
+**8-қадам: Take Snapshot**  
+  
+Snapshot Manager -> Take Snapshot -> initial image  
