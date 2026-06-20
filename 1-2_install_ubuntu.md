@@ -1,4 +1,4 @@
-# How to install Ubuntu Server 24.04.4 LTS
+# How to install Ubuntu Server
 
 Table - Minimum System Requirements
 | Component | Minimum Requirement |
