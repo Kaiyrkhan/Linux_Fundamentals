@@ -182,10 +182,12 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**10-қадам: VMware OVF Tool арқылы OVA файл құру**
+**10-қадам: Export to OVF file**
 
-Export to OVF file  
-![images](./images/export_to_ovf.png)
+![images](./images/debian_export_to_ovf.png)  
+![images](./images/debian_ovf_files.png)  
+
+**11-қадам: VMware OVF Tool арқылы OVA файл құру**
 
 Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
 
@@ -202,7 +204,7 @@ cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
 ```shell
 dir
 ```
-![images](./images/dir_ovf_files.png)
+![images](./images/debian_dir_ovf_files.png)
 
 OVF to OVA file
 ```shell
@@ -217,8 +219,8 @@ Completed successfully
 ```shell
 dir
 ```
-![images](./images/dir_ova_ovf_files.png)
+![images](./images/debian_dir_ova_ovf_files.png)
 
-**11-қадам: Take Snapshot**  
+**12-қадам: Take Snapshot**  
   
 Snapshot Manager -> Take Snapshot -> initial image  
