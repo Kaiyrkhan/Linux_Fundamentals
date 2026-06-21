@@ -5,7 +5,7 @@ Table - Minimum System Requirements
 |-----------|---------------------|
 | Processor | 1 GHz single-core   |
 | Memory    | 2 GB RAM            |
-| Storage   | 25 GB               |
+| Storage   | 20 GB               |
 
 ![images](./images/debian_installer_menu.png)
 ![images](./images/debian_select_language.png)
