@@ -83,6 +83,35 @@ Banner /etc/issue.net
 student@ubuntu:~$ sudo systemctl restart ssh
 ```
 
+**6-қадам: Clear Bash History**
+
+```shell
+student@ubuntu:~$ history
+
+student@ubuntu:~$ ls -la
+student@ubuntu:~$ cat /dev/null > ~/.bash_history
+student@ubuntu:~$ history -c
+```
+
+```shell
+student@ubuntu:~$ logout
+
+ubuntu login: root
+password: P@s$w0rd
+
+root@ubuntu:~#
+```
+
+```shell
+root@ubuntu:~# history
+
+root@ubuntu:~# ls -la
+root@ubuntu:~# cat /dev/null > ~/.bash_history
+root@ubuntu:~# history -c
+
+root@ubuntu:~# reboot
+```
+
 **6-қадам: Power Off**
 ```shell
 student@ubuntu:~$ poweroff
