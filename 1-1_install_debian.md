@@ -170,3 +170,35 @@ Password: P@s$w0rd
 **9-қадам: Take Snapshot**  
   
 Snapshot Manager -> Take Snapshot -> initial image  
+
+**9-қадам: VMware OVF Tool арқылы OVA файл құру**
+
+Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
+
+Terminal (PowerShell) -> Run as administrator  
+```shell
+cd "C:\Program Files\VMware\VMware OVF Tool"
+.\ovftool.exe --version
+```
+
+```shell
+cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
+
+dir
+```
+![images](./images/dir_ovf_files.png)
+
+OVF to OVA file
+```shell
+& "C:\Program Files\VMware\VMware OVF Tool\ovftool.exe" `
+"debian-13.5.ovf" `
+"debian-13.5.ova"
+```
+The manifest validates  
+Transfer Completed  
+Completed successfully  
+
+```shell
+dir
+```
+![images](./images/dir_ova_ovf_files.png)
