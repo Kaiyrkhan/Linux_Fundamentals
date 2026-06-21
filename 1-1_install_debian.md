@@ -201,6 +201,16 @@ dir
 ```
 ![images](./images/dir_ova_ovf_files.png)
 
-**10-қадам: Take Snapshot**  
+**10-қадам: Қосымша конфигурация**
+
+```shell
+I Copied It
+
+open -> *.vmx file
+
+uuid.action = "create"
+```
+
+**11-қадам: Take Snapshot**  
   
 Snapshot Manager -> Take Snapshot -> initial image  
