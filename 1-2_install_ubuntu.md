@@ -116,7 +116,7 @@ student@ubuntu:~$ ls -la
 student@ubuntu:~$ cat /dev/null > ~/.bash_history
 student@ubuntu:~$ history -c
 
-root@ubuntu:~# reboot
+student@ubuntu:~$ reboot
 ```
 
 **8-қадам: Power Off**
