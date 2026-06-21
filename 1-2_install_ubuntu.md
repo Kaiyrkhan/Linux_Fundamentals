@@ -97,7 +97,7 @@ student@ubuntu:~$ sudo nano /etc/netplan/50-cloud-init.yaml
 network:
   version: 2
   ethernets:
-    ens3:
+    ens32:
       dhcp4: true
       optional: true
 
