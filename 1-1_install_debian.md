@@ -159,9 +159,8 @@ student@debian:~$ sudo poweroff
 
 **8-қадам: I Copied It**
 
+`*.vmx` файлды ашып, төмендегі команданы енгіземіз!  
 ```shell
-open -> *.vmx file
-
 uuid.action = "create"
 ```
 
