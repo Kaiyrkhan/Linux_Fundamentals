@@ -29,6 +29,10 @@ student@ubuntu:~$ sudo apt update
 student@ubuntu:~$ sudo apt upgrade -y
 ```
 
+```shell
+student@ubuntu:~$ reboot
+```
+
 **3-қадам: System Information**
 ```shell
 student@ubuntu:~$ uname -sr
