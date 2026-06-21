@@ -38,6 +38,9 @@ Table - Minimum System Requirements
 ![images](./images/debian_install_grub_device.png)
 ![images](./images/debian_installation_complete.png)
 
+debian login: **root**  
+password: **P@s$w0rd**  
+
 **1-қадам: Add a User to the Sudo Group**
 ```shell
 root@debian:~# groups student
