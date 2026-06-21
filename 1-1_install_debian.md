@@ -186,10 +186,10 @@ Password: P@s$w0rd
 
 ![images](./images/debian_export_to_ovf.png)  
 
-Нәтижесінде төмендегідей 3 файл құрылады!  
-  1) *.mf
-  2) *.vmdk
-  3) *.ovf
+Нәтижесінде төмендегідей 3 файл құрылады:  
+  1) `*.mf`   - Manifest File
+  2) `*.vmdk` - Virtual Machine Disk
+  3) `*.ovf`  - Open Virtualization Format
 
 **11-қадам: VMware OVF Tool арқылы OVA файл құру**
 
