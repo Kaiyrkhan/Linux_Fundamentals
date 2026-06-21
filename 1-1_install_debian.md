@@ -125,23 +125,30 @@ student@debian:~$ sudo nano /etc/motd
 
 **6-қадам: Clear History**
 
-**student**
 ```shell
 student@debian:~$ history
-student@debian:~$ ls -la
 
+student@debian:~$ ls -la
 student@debian:~$ cat /dev/null > ~/.bash_history
 student@debian:~$ history -c
-student@debian:~$ logout
 ```
 
-**root**
+```shell
+student@debian:~$ logout
+
+debian login: root
+password: P@s$w0rd
+
+root@debian:~#
+```
+
 ```shell
 root@debian:~# history
-root@debian:~# ls -la
 
-root@debian:~# cat /dev/null > ./.bash_history
+root@debian:~# ls -la
+root@debian:~# cat /dev/null > ~/.bash_history
 root@debian:~# history -c
+
 root@debian:~# reboot
 ```
 
