@@ -163,6 +163,7 @@ student@debian:~$ sudo poweroff
 ```shell
 uuid.action = "create"
 ```
+> C:\Users\student\Documents\Virtual Machines\debian-13.5\  
 
 **9-қадам: Description**  
 
