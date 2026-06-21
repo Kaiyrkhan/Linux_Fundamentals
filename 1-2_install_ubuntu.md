@@ -124,15 +124,9 @@ student@ubuntu:~$ reboot
 student@ubuntu:~$ poweroff
 ```
 
-**9-қадам: I Copied It**
+![images](./images/vmware_hardware_devices.png)  
 
-`*.vmx` файлды ашып, төмендегі команданы енгіземіз!  
-```shell
-uuid.action = "create"
-```
-> C:\Users\student\Documents\Virtual Machines\ubuntu-24.04.4-LTS\  
-
-**10-қадам: Description**  
+**9-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -142,9 +136,17 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
+**10-қадам: I Copied It**
+
+`*.vmx` файлды ашып, төмендегі команданы енгіземіз!  
+```shell
+uuid.action = "create"
+```
+> C:\Users\student\Documents\Virtual Machines\ubuntu-24.04.4-LTS\  
+
 **11-қадам: Export to OVF**
 
-![images](./images/export_to_ovf.png)  
+![images](./images/vmware_export_to_ovf.png)  
 
 Нәтижесінде төмендегідей 3 файл құрылады:  
   1) `*.mf`   - Manifest File
