@@ -168,13 +168,13 @@ cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
 ```shell
 dir
 ```
-![images](./images/dir_ovf_files.png)
+![images](./images/ubuntu_dir_ovf_files.png)
 
 OVF to OVA file
 ```shell
 & "C:\Program Files\VMware\VMware OVF Tool\ovftool.exe" `
-"debian-13.5.ovf" `
-"debian-13.5.ova"
+"ubuntu-24.04.4-LTS.ovf" `
+"ubuntu-24.04.4-LTS.ova"
 ```
 The manifest validates  
 Transfer Completed  
@@ -183,7 +183,7 @@ Completed successfully
 ```shell
 dir
 ```
-![images](./images/dir_ova_ovf_files.png)
+![images](./images/ubuntu_dir_ova_ovf_files.png)
 
 **13-қадам: Take Snapshot**  
   
