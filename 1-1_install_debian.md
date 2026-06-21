@@ -184,7 +184,7 @@ Password: P@s$w0rd
 
 **10-қадам: Export to OVF file**
 
-![images](./images/debian_export_to_ovf.png)  
+![images](./images/export_to_ovf.png)  
 
 Нәтижесінде төмендегідей 3 файл құрылады:  
   1) `*.mf`   - Manifest File
@@ -208,7 +208,7 @@ cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
 ```shell
 dir
 ```
-![images](./images/debian_dir_ovf_files.png)
+![images](./images/dir_ovf_files.png)
 
 OVF to OVA file
 ```shell
@@ -223,7 +223,7 @@ Completed successfully
 ```shell
 dir
 ```
-![images](./images/debian_dir_ova_ovf_files.png)
+![images](./images/dir_ova_ovf_files.png)
 
 **12-қадам: Take Snapshot**  
   
