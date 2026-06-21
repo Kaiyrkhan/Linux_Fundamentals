@@ -128,7 +128,6 @@ student@debian:~$ sudo nano /etc/motd
 **student**
 ```shell
 student@debian:~$ history
-student@debian:~$ sudo reboot
 student@debian:~$ ls -la
 
 student@debian:~$ cat /dev/null > ~/.bash_history
