@@ -136,13 +136,20 @@ student@ubuntu:~$ poweroff
 
 **9-қадам: I Copied It**
 
+`*.vmx` файлды ашып, төмендегі команданы енгіземіз!  
+```shell
+uuid.action = "create"
+```
+
+**10-қадам: I Copied It**
+
 ```shell
 open -> *.vmx file
 
 uuid.action = "create"
 ```
 
-**10-қадам: Description**  
+**11-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -152,7 +159,7 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**11-қадам: VMware OVF Tool арқылы OVA файл құру**
+**12-қадам: VMware OVF Tool арқылы OVA файл құру**
 
 Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
 
@@ -186,6 +193,6 @@ dir
 ```
 ![images](./images/dir_ova_ovf_files.png)
 
-**12-қадам: Take Snapshot**  
+**13-қадам: Take Snapshot**  
   
 Snapshot Manager -> Take Snapshot -> initial image  
