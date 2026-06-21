@@ -140,7 +140,7 @@ student@ubuntu:~$ poweroff
 ```shell
 uuid.action = "create"
 ```
-> C:\Users\student\Documents\Virtual Machines\ubuntu-24.04.4-LTS\*.vmx  
+> C:\Users\student\Documents\Virtual Machines\ubuntu-24.04.4-LTS\  
 
 **10-қадам: Description**  
 
