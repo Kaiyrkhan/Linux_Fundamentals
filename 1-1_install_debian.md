@@ -164,15 +164,9 @@ root@debian:~# reboot
 student@debian:~$ sudo poweroff
 ```
 
-**8-қадам: I Copied It**
+![images](./images/vmware_hardware_devices.png)  
 
-`*.vmx` файлды ашып, төмендегі команданы енгіземіз!  
-```shell
-uuid.action = "create"
-```
-> C:\Users\student\Documents\Virtual Machines\debian-13.5\  
-
-**9-қадам: Description**  
+**8-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -182,9 +176,17 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
+**9-қадам: I Copied It**
+
+`*.vmx` файлды ашып, төмендегі команданы енгіземіз!  
+```shell
+uuid.action = "create"
+```
+> C:\Users\student\Documents\Virtual Machines\debian-13.5\  
+
 **10-қадам: Export to OVF file**
 
-![images](./images/export_to_ovf.png)  
+![images](./images/vmware_export_to_ovf.png)  
 
 Нәтижесінде төмендегідей 3 файл құрылады:  
   1) `*.mf`   - Manifest File
@@ -208,7 +210,7 @@ cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
 ```shell
 dir
 ```
-![images](./images/dir_ovf_files.png)
+![images](./images/debian_dir_ovf_files.png)
 
 OVF to OVA file
 ```shell
@@ -223,7 +225,7 @@ Completed successfully
 ```shell
 dir
 ```
-![images](./images/dir_ova_ovf_files.png)
+![images](./images/debian_dir_ova_ovf_files.png)
 
 **12-қадам: Take Snapshot**  
   
