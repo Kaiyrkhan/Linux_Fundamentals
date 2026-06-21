@@ -9,6 +9,9 @@ Table - Minimum System Requirements
 
 **1-қадам: Set the Root Password**
 
+ubuntu login: **student**  
+password: **123**  
+
 ```shell
 student@ubuntu:~$ sudo passwd root
 New password: P@s$w0rd
