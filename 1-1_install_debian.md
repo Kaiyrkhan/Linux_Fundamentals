@@ -123,7 +123,7 @@ student@debian:~$ sudo systemctl restart ssh
 student@debian:~$ sudo nano /etc/motd
 ```
 
-**6-қадам: Clear History**
+**6-қадам: Clear Bash History**
 
 ```shell
 student@debian:~$ history
