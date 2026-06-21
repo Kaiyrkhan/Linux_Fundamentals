@@ -43,7 +43,6 @@ password: **P@s$w0rd**
 
 **1-қадам: Add a User to the Sudo Group**
 ```shell
-root@debian:~# groups student
 root@debian:~# usermod -aG sudo student
 root@debian:~# groups student
 ```
