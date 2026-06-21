@@ -83,7 +83,24 @@ Banner /etc/issue.net
 student@ubuntu:~$ sudo systemctl restart ssh
 ```
 
-**6-қадам: Clear Bash History**
+**6-қадам: optional: true**
+
+```shell
+student@ubuntu:~$ sudo nano /etc/netplan/50-cloud-init.yaml
+network:
+  version: 2
+  ethernets:
+    ens3:
+      dhcp4: true
+      optional: true
+
+CTRL+O, ENTER, CTRL+X
+CTRL+L
+
+student@ubuntu:~$ sudo netplan apply
+```
+
+**7-қадам: Clear Bash History**
 
 ```shell
 student@ubuntu:~$ history
@@ -112,12 +129,20 @@ root@ubuntu:~# history -c
 root@ubuntu:~# reboot
 ```
 
-**7-қадам: Power Off**
+**8-қадам: Power Off**
 ```shell
 student@ubuntu:~$ poweroff
 ```
 
-**8-қадам: Description**  
+**9-қадам: I Copied It**
+
+```shell
+open -> *.vmx file
+
+uuid.action = "create"
+```
+
+**10-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -127,11 +152,7 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**9-қадам: Take Snapshot**  
-  
-Snapshot Manager -> Take Snapshot -> initial image  
-
-**10-қадам: VMware OVF Tool арқылы OVA файл құру**
+**11-қадам: VMware OVF Tool арқылы OVA файл құру**
 
 Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
 
@@ -164,3 +185,7 @@ Completed successfully
 dir
 ```
 ![images](./images/dir_ova_ovf_files.png)
+
+**12-қадам: Take Snapshot**  
+  
+Snapshot Manager -> Take Snapshot -> initial image  
