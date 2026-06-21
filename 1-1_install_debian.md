@@ -38,10 +38,11 @@ Table - Minimum System Requirements
 ![images](./images/debian_install_grub_device.png)
 ![images](./images/debian_installation_complete.png)
 
+**1-қадам: Add a User to the Sudo Group**
+
 debian login: **root**  
 password: **P@s$w0rd**  
 
-**1-қадам: Add a User to the Sudo Group**
 ```shell
 root@debian:~# usermod -aG sudo student
 root@debian:~# groups student
@@ -54,6 +55,10 @@ root@debian:~# reboot
 ```
 
 **2-қадам: Update and Upgrade**
+
+debian login: **student**  
+password: **123**  
+
 ```shell
 student@debian:~$ sudo apt update
 student@debian:~$ sudo apt upgrade -y
