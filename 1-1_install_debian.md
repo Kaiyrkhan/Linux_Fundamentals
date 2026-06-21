@@ -184,7 +184,7 @@ uuid.action = "create"
 ```
 > C:\Users\student\Documents\Virtual Machines\debian-13.5\  
 
-**10-қадам: Export to OVF file**
+**10-қадам: Export to OVF**
 
 ![images](./images/vmware_export_to_ovf.png)  
 
