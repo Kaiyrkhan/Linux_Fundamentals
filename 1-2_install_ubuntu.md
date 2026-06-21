@@ -152,7 +152,7 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**11-қадам: Export to OVF file**
+**11-қадам: Export to OVF**
 
 ![images](./images/debian_export_to_ovf.png)  
 
