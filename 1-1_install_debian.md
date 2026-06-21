@@ -123,12 +123,33 @@ student@debian:~$ sudo systemctl restart ssh
 student@debian:~$ sudo nano /etc/motd
 ```
 
-**6-қадам: Power Off**
+**6-қадам: Clear History**
+
+**student**
+
+student@debian:~$ history
+student@debian:~$ sudo reboot
+student@debian:~$ ls -la
+
+student@debian:~$ cat /dev/null > ~/.bash_history
+student@debian:~$ history -c
+student@debian:~$ logout
+
+**Root**
+
+root@debian:~# history
+root@debian:~# ls -la
+
+root@debian:~# cat /dev/null > ./.bash_history
+root@debian:~# history -c
+root@debian:~# reboot
+
+**7-қадам: Power Off**
 ```shell
 student@debian:~$ sudo poweroff
 ```
 
-**7-қадам: Description**  
+**8-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -138,6 +159,6 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**8-қадам: Take Snapshot**  
+**9-қадам: Take Snapshot**  
   
 Snapshot Manager -> Take Snapshot -> initial image  
