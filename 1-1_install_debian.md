@@ -184,6 +184,9 @@ Password: P@s$w0rd
 
 **10-қадам: VMware OVF Tool арқылы OVA файл құру**
 
+Export to OVF file  
+![images](./images/export_to_ovf.png)
+
 Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
 
 Terminal (PowerShell) -> Run as administrator  
