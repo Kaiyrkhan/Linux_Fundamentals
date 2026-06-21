@@ -183,7 +183,9 @@ cd "C:\Program Files\VMware\VMware OVF Tool"
 
 ```shell
 cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
+```
 
+```shell
 dir
 ```
 ![images](./images/dir_ovf_files.png)
