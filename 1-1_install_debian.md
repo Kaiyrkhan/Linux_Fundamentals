@@ -157,7 +157,15 @@ root@debian:~# reboot
 student@debian:~$ sudo poweroff
 ```
 
-**8-қадам: Description**  
+**8-қадам: I Copied It**
+
+```shell
+open -> *.vmx file
+
+uuid.action = "create"
+```
+
+**9-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -167,7 +175,7 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**9-қадам: VMware OVF Tool арқылы OVA файл құру**
+**10-қадам: VMware OVF Tool арқылы OVA файл құру**
 
 Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
 
@@ -200,16 +208,6 @@ Completed successfully
 dir
 ```
 ![images](./images/dir_ova_ovf_files.png)
-
-**10-қадам: Қосымша конфигурация**
-
-```shell
-I Copied It
-
-open -> *.vmx file
-
-uuid.action = "create"
-```
 
 **11-қадам: Take Snapshot**  
   
