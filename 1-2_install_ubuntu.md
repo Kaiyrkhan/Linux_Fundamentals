@@ -178,7 +178,7 @@ cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
 ```shell
 dir
 ```
-![images](./images/dir_ovf_files.png)
+![images](./images/debian_dir_ovf_files.png)
 
 OVF to OVA file
 ```shell
@@ -193,7 +193,7 @@ Completed successfully
 ```shell
 dir
 ```
-![images](./images/dir_ova_ovf_files.png)
+![images](./images/debian_dir_ova_ovf_files.png)
 
 **13-қадам: Take Snapshot**  
   
