@@ -152,7 +152,16 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**11-қадам: VMware OVF Tool арқылы OVA файл құру**
+**11-қадам: Export to OVF file**
+
+![images](./images/debian_export_to_ovf.png)  
+
+Нәтижесінде төмендегідей 3 файл құрылады:  
+  1) `*.mf`   - Manifest File
+  2) `*.vmdk` - Virtual Machine Disk
+  3) `*.ovf`  - Open Virtualization Format
+
+**12-қадам: VMware OVF Tool арқылы OVA файл құру**
 
 Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
 
@@ -186,6 +195,6 @@ dir
 ```
 ![images](./images/dir_ova_ovf_files.png)
 
-**12-қадам: Take Snapshot**  
+**13-қадам: Take Snapshot**  
   
 Snapshot Manager -> Take Snapshot -> initial image  
