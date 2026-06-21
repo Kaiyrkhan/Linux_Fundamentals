@@ -112,12 +112,12 @@ root@ubuntu:~# history -c
 root@ubuntu:~# reboot
 ```
 
-**6-қадам: Power Off**
+**7-қадам: Power Off**
 ```shell
 student@ubuntu:~$ poweroff
 ```
 
-**7-қадам: Description**  
+**8-қадам: Description**  
 
 VMware Workstation -> Description  
 
@@ -127,6 +127,6 @@ Password: 123
 Username: root  
 Password: P@s$w0rd  
 
-**8-қадам: Take Snapshot**  
+**9-қадам: Take Snapshot**  
   
 Snapshot Manager -> Take Snapshot -> initial image  
