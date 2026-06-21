@@ -171,7 +171,7 @@ Password: P@s$w0rd
   
 Snapshot Manager -> Take Snapshot -> initial image  
 
-**9-қадам: VMware OVF Tool арқылы OVA файл құру**
+**10-қадам: VMware OVF Tool арқылы OVA файл құру**
 
 Download OVF Tool https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest  
 
