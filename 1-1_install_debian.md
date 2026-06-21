@@ -136,7 +136,7 @@ student@debian:~$ history -c
 student@debian:~$ logout
 ```
 
-**Root**
+**root**
 ```shell
 root@debian:~# history
 root@debian:~# ls -la
