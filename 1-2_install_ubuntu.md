@@ -9,7 +9,7 @@ Table - Minimum System Requirements
 
 **1-қадам: Set the Root Password**
 
-ubuntu login: **student**  
+login: **student**  
 password: **123**  
 
 ```shell
@@ -41,6 +41,8 @@ student@ubuntu:~$ lsb_release -a
 
 **4-қадам: Verify SSH Connectivity**
 ```shell
+student@ubuntu:~$ sudo systemctl status ssh
+
 student@ubuntu:~$ ip address
 ```
 
@@ -66,6 +68,10 @@ CTRL+L
 `\S` - OS name  
 `\l` - TTY name  
 `\r` - Kernel release  
+
+```shell
+student@ubuntu:~$ logout
+```
 
 **Configure Remote Login Banner**
 
@@ -115,14 +121,9 @@ student@ubuntu:~$ history
 student@ubuntu:~$ ls -la
 student@ubuntu:~$ cat /dev/null > ~/.bash_history
 student@ubuntu:~$ history -c
-
-student@ubuntu:~$ reboot
 ```
 
-**8-қадам: Power Off**
-```shell
-student@ubuntu:~$ poweroff
-```
+**8-қадам: Hardware Device (CPU, RAM, Storage, NIC)**
 
 ![images](./images/vmware_hardware_devices.png)  
 
