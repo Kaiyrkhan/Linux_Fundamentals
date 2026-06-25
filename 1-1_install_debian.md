@@ -73,7 +73,7 @@ student@debian:~$ cat /etc/debian_version
 
 **4-қадам: Verify SSH Connectivity**
 ```shell
-student@debian:~$ sudo systemctl status sshd
+student@debian:~$ sudo systemctl status ssh
 
 student@debian:~$ ip address
 ```
