@@ -101,6 +101,8 @@ CTRL+L
 `\l` - TTY name  
 `\r` - Kernel release  
 
+student@debian:~$ logout
+
 **Configure Remote Login Banner**
 
 ```shell
@@ -141,22 +143,11 @@ student@debian:~$ history -c
 ```
 
 ```shell
-student@debian:~$ logout
-
-debian login: root
-password: P@s$w0rd
-
-root@debian:~#
-```
-
-```shell
 root@debian:~# history
 
 root@debian:~# ls -la
 root@debian:~# cat /dev/null > ~/.bash_history
 root@debian:~# history -c
-
-root@debian:~# reboot
 ```
 
 **7-қадам: Power Off**
