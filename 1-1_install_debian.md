@@ -40,7 +40,7 @@ Table - Minimum System Requirements
 
 **1-қадам: Add a User to the Sudo Group**
 
-debian login: **root**  
+login: **root**  
 password: **P@s$w0rd**  
 
 ```shell
@@ -56,7 +56,7 @@ root@debian:~# reboot
 
 **2-қадам: Update and Upgrade**
 
-debian login: **student**  
+login: **student**  
 password: **123**  
 
 ```shell
@@ -134,6 +134,9 @@ student@debian:~$ sudo nano /etc/motd
 
 **6-қадам: Clear Bash History**
 
+login: **student**  
+password: **123**  
+
 ```shell
 student@debian:~$ history
 
@@ -141,6 +144,9 @@ student@debian:~$ ls -la
 student@debian:~$ cat /dev/null > ~/.bash_history
 student@debian:~$ history -c
 ```
+
+login: **root**  
+password: **P@s$w0rd**  
 
 ```shell
 root@debian:~# history
@@ -150,10 +156,7 @@ root@debian:~# cat /dev/null > ~/.bash_history
 root@debian:~# history -c
 ```
 
-**7-қадам: Power Off**
-```shell
-student@debian:~$ sudo poweroff
-```
+**7-қадам: Hardware Device (CPU, RAM, Storage, NIC)**
 
 ![images](./images/vmware_hardware_devices.png)  
 
