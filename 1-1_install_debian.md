@@ -101,7 +101,9 @@ CTRL+L
 `\l` - TTY name  
 `\r` - Kernel release  
 
+```shell
 student@debian:~$ logout
+```
 
 **Configure Remote Login Banner**
 
