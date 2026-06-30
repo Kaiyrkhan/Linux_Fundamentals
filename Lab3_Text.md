@@ -13,7 +13,7 @@
 ```
 
 ```shell
-cat >> /etc/hosts <<EOF
-192.168.10.50 ogdb01
+root@debian:~# cat >> /etc/hosts <<EOF
+10.10.10.67 dhcp
 EOF
 ```
