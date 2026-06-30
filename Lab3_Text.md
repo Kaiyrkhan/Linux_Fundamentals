@@ -1,6 +1,6 @@
 # Text Editors and Text Processing
 
-### Text Editor nano
+### nano (Text Editor)
 
 ```shell
 «Alt + \» — файлдың басына өту
