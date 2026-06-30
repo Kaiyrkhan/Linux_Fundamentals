@@ -11,3 +11,9 @@
 
 «Ctrl + K» — мәтінді buffer-ге қиып алу
 ```
+
+```shell
+cat >> /etc/hosts <<EOF
+192.168.10.50 ogdb01
+EOF
+```
