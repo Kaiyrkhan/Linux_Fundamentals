@@ -12,6 +12,13 @@
 «Ctrl + K» — мәтінді buffer-ге қиып алу
 ```
 
+| nano    | vi/vim (Normal mode) |
+|---------|----------------------|
+| Alt + \ | gg                   |
+| Alt + / | G                    |
+|         | Shift+{              |
+|         | Shift+}              |
+
 ```shell
 root@debian:~# cat >> /etc/hosts <<EOF
 10.10.10.67 dhcp
