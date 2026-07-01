@@ -165,7 +165,7 @@ cd "C:\Program Files\VMware\VMware OVF Tool"
 ```
 
 ```shell
-cd "$env:USERPROFILE\Documents\Virtual Machines\OVF_files"
+cd "$env:USERPROFILE\Documents\Virtual Machines\_OVF_files"
 ```
 
 ```shell
