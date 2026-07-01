@@ -24,3 +24,8 @@ root@debian:~# cat >> /etc/hosts <<EOF
 10.10.10.67 dhcp
 EOF
 ```
+
+```shell
+$ ip a
+$ ip -br a
+```
