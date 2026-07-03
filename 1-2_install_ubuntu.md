@@ -13,12 +13,12 @@ login: **student**
 password: **123**  
 
 ```shell
-student@ubuntu:~$ sudo passwd root
-New password: P@s$w0rd
+student@ubuntu:~$ groups student
 ```
 
 ```shell
-student@ubuntu:~$ groups student
+student@ubuntu:~$ sudo passwd root
+New password: P@s$w0rd
 ```
 
 **2-қадам: Update and Upgrade**
