@@ -29,3 +29,7 @@ EOF
 $ ip a
 $ ip -br a
 ```
+
+```shell
+$ sudo grep -RIn "text" /etc /home/student 2>/dev/null
+```
