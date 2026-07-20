@@ -33,3 +33,8 @@ $ ip -br a
 ```shell
 $ sudo grep -RIn "text" /etc /home/student 2>/dev/null
 ```
+
+### vi/vim
+
+`i` - Edit mode  
+`ESC` - Normal mode  
